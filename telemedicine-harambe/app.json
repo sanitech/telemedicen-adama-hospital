@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Adama Hospital Telemedicine",
-    "slug": "adama-hospital-telemedicine",
+    "name": "telemedicine-harambe",
+    "slug": "telemedicine-harambe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
