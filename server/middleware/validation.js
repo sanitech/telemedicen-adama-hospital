@@ -78,6 +78,7 @@ const validateMessage = [
 
 // Post validation
 const validatePost = [
+  body('title').trim().isLength({ min: 5, max: 200 }).withMessage('Title must be 5-200 characters'),
   body('content').trim().isLength({ min: 10, max: 5000 }).withMessage('Content must be 10-5000 characters'),
   handleValidationErrors
 ];
